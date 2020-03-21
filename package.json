@@ -20,6 +20,12 @@
   },
   "homepage": "https://github.com/cesgarpas/optimal-nodejs-configuration#readme",
   "devDependencies": {
+    "eslint": "^6.8.0",
     "jest": "^25.1.0"
+  },
+  "eslint": {
+    "ignore": [
+      "/tests/**"
+    ]
   }
 }
