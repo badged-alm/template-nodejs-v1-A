@@ -1,3 +1,5 @@
+"use strict";
+
 const chalk = require("chalk");
 const fs = require("fs");
 
@@ -12,7 +14,7 @@ const writeLine = msg => {
 };
 
 const info = msg => {
-  resMsg = getISO() + ": info | " + msg;
+  let resMsg = getISO() + ": info | " + msg;
   writeLine(resMsg);
   console.log(
     chalk.bold.hex("#5f87d7")(resMsg.split("|")[0]) + "|" + resMsg.split("|")[1]
@@ -20,7 +22,7 @@ const info = msg => {
 };
 
 const error = msg => {
-  resMsg = getISO() + ": erro | " + msg;
+  let resMsg = getISO() + ": erro | " + msg;
   writeLine(resMsg);
   console.log(
     chalk.bold.hex("#800000")(resMsg.split("|")[0]) + "|" + resMsg.split("|")[1]
@@ -28,7 +30,7 @@ const error = msg => {
 };
 
 const warn = msg => {
-  resMsg = getISO() + ": warn | " + msg;
+  let resMsg = getISO() + ": warn | " + msg;
   writeLine(resMsg);
   console.log(
     chalk.bold.hex("#d78700")(resMsg.split("|")[0]) + "|" + resMsg.split("|")[1]
