@@ -1,6 +1,6 @@
 # A-Level Node.js Project Configuration Example
 ![Node.js CI](https://github.com/cesgarpas/optimal-nodejs-configuration/workflows/Node.js%20CI/badge.svg?branch=master)
-[![Coverage Status](https://coveralls.io/repos/github/cesgarpas/optimal-nodejs-configuration/badge.svg?branch=master)](https://coveralls.io/github/cesgarpas/optimal-nodejs-configuration?branch=master) 
+[![Coverage Status](https://coveralls.io/repos/github/cesgarpas/a-level-nodejs-example-project/badge.svg?branch=master)](https://coveralls.io/github/cesgarpas/a-level-nodejs-example-project?branch=master)
 [![Code Style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io/) 
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 [![Known Vulnerabilities](https://snyk.io/test/github/cesgarpas/optimal-nodejs-configuration/badge.svg)](https://snyk.io/test/github/cesgarpas/optimal-nodejs-configuration)
