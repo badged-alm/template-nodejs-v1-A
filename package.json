@@ -1,5 +1,5 @@
 {
-  "name": "template-nodejs-v1-A",
+  "name": "template-nodejs-v1-a",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,9 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "eslint . && jest --coverage"
+    "test": "eslint . && jest --coverage",
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
