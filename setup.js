@@ -30,7 +30,11 @@ try {
       // README.md
       let readme = fs.readFileSync("README.md", "utf8");
       readme = readme.split(templateRepoName).join(githubRepo);
-      readme = readme.split(templateRepoName.split('/')[0] + "_" + templateRepoName.split('/')[1]).join(githubRepo.split('/')[0] + "_" + githubRepo.split('/')[1]);
+      readme = readme
+        .split(
+          templateRepoName.split("/")[0] + "_" + templateRepoName.split("/")[1]
+        )
+        .join(githubRepo.split("/")[0] + "_" + githubRepo.split("/")[1]);
 
       // Write files and close
       fs.writeFileSync(
